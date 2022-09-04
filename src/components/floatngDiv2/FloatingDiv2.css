@@ -1,0 +1,32 @@
+.floatingDiv2{
+    /* 
+    justify-content: space-around;
+        display: flex;
+        background:rgb(254, 254, 254);
+        box-shadow: rgb(138, 56, 200);
+        border-radius: 14px;
+    align-items: center;
+    padding-right: 29px;
+    
+        height: 4.5rem;
+        width: 11rem;
+       
+    } */
+    display: flex;
+    align-items: center;
+    background-color: rgb(227, 216, 237);
+    height: 3rem;
+    border-radius: 12px;
+    
+    
+    
+    }
+    .floatingDiv2>img{
+        transform: scale(0.8);
+    }
+    .floatingDiv2>span{
+    font-family: sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+    float: left;
+    }

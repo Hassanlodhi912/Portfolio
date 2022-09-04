@@ -1,0 +1,46 @@
+.services{
+    padding:0 3rem 0 3rem;
+    display: flex;
+    height: 100vh;
+    margin-bottom: 8rem;
+    margin-top: 9rem;
+    margin-bottom: 13rem;
+}
+.awesome{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+.awesome>:nth-child(1){
+    color:rgb(0, 0, 0);
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+.awesome>:nth-child(2){
+    color:#b033aa;
+    font-size: 2.5rem;
+}
+    .awesome>:nth-child(3){
+        color:#000000;
+        font-size: 17px;
+        margin-top: 10px;
+        /* background-color: ; */
+    }
+   .s-button{
+    width: 6rem;
+    height: 3rem;
+    margin-top: 1rem;
+   }
+   .cards{
+position: relative;
+   }
+   .cards>*{
+    position:absolute;
+   }
+   /* .s-blur2 {
+    left: 24rem;
+  }
+  .s-blur1 {
+    top: 19rem;
+    left: 4rem;
+  } */

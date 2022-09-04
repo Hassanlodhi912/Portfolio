@@ -37,6 +37,7 @@ const Intro = () => {
                         <InstagramIcon />
 
                     </a>
+                    hassan lodhi is here
                 </div>
             </div>
             <div className="i-right">

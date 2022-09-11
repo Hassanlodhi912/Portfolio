@@ -7,10 +7,8 @@ import hassan from "../../img/hassan.png"
 import crown from "../../img/crown.png";
 import thumbup from "../../img/thumbup.png";
 import smile from "../../img/smile.png";
-import awesomeImage2 from "../../img/awesomeImage2.png";
 import FloatingDiv from "../floatingDiv/FloatingDiv";
 import FloatingDiv2 from "../floatngDiv2/FloatingDiv2";
-import Services from '../services/Services';
 import "./Intro.css"
 
 const Intro = () => {
@@ -24,20 +22,19 @@ const Intro = () => {
                 </div>
                 <button className=" button i-button">Hire me</button>
                 <div className="i-icons">
-                    <a href="https://github.com/">
-                        <GitHubIcon />
+                    <a href="https://github.com/Hassanlodhi912">
+                        <GitHubIcon style={{color:"#753a72"}} />
 
                     </a>
 
-                    <a href="https://www.linkedin.com">
-                        <LinkedInIcon />
+                    <a href="https://www.linkedin.com/in/hassan-lodhi-2a45281aa/">
+                        <LinkedInIcon  style={{color:"753a72"}}/>
 
                     </a>
-                    <a href="https://www.instagram.com/">
-                        <InstagramIcon />
+                    <a href="https://www.instagram.com/lodhi_880/">
+                        <InstagramIcon  style={{color:"#753a72"}}/>
 
                     </a>
-                    hassan lodhi is here
                 </div>
             </div>
             <div className="i-right">

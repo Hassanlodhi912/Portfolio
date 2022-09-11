@@ -1,4 +1,5 @@
 
+import Contact from "../components/contact/Contact";
 import Experience from "../components/experience/Experience";
 import Header from "../components/header/Header";
 import Intro from "../components/intro/Intro";
@@ -14,6 +15,7 @@ const Router = () => {
 <Services/>
 <Experience/>
 <Portfolio/>
+<Contact/>
 
    
 </>

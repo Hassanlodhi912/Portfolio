@@ -1,5 +1,11 @@
 import "./Portfolio.css";
-import {Swiper,SwiperSlide} from "swiper/react"
+import "swiper/css";
+
+import { Swiper, SwiperSlide } from "swiper/react";
+import gym from "../../img/gym.PNG"
+import quizApp from "../../img/quizApp.PNG"
+import todoApp from "../../img/todoApp.PNG"
+import e from "../../img/e.PNG"
 const Portfolio = () => {
   return (
     
@@ -7,12 +13,20 @@ const Portfolio = () => {
         {/* heading */}
         <span>Recent Project</span>
         <span>Portfolio</span>
-        {/* slide */}
-        <Swiper>
-          <SwiperSlide>
-            <img src="" alt="" />
-          </SwiperSlide>
-        </Swiper>
+        {/* slider */}
+        <Swiper  spaceBetween={10}
+        slidesPerView={3}
+        grabCursor={true}
+        className="portfolio-slider">
+        <SwiperSlide><img src={quizApp} alt="quiz" /> </SwiperSlide>
+        <SwiperSlide><img src={todoApp} alt="todo" /> </SwiperSlide>
+        <SwiperSlide><img src={gym} alt="gym" /> </SwiperSlide>
+        <SwiperSlide><img src={e} alt="E" /> </SwiperSlide>
+     
+      </Swiper>
+      
+      
+       
       </div>
       
     

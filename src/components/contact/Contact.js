@@ -8,6 +8,9 @@ const Contact = () => {
         <span>Contact me</span>
         <div
           className="blur s-blur1"
+          style={{ background: "#dfcae7" }}
+          
+
          
         ></div>
       </div>
@@ -21,7 +24,7 @@ const Contact = () => {
         <input type="submit"  className="button"/>
         <span >"Thanks for Contacting me"</span>
         <div
-          className="blur c-blur1"
+          className="blur c-blur1"        style={{ background: "#dfcae7" }}
           
         ></div>
       </form>

@@ -1,11 +1,12 @@
 import React from 'react'
+import Toggle from '../toggle/Toggle';
 import "./Header.css";
 const Header = () => {
     return (
         <div className="h-wrapper">
             <div className="h-left">
                 <div className="h-name">Hassan</div>
-                <span>toggle</span>
+                <Toggle/>
 
             </div>
             <div className="h-right">

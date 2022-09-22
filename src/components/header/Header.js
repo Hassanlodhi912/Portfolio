@@ -19,10 +19,10 @@ const Header = () => {
                         <li>Testimonials</li>
                     </ul>
                 </div>
+            </div>
                 <button className="button">
                     Contact us
                 </button>
-            </div>
         </div>
     )
 }

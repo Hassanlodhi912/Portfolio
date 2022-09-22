@@ -6,8 +6,9 @@ import InstagramIcon from '@mui/icons-material/Instagram';
 const Footer = () => {
   return (
     <div className="footer">
-      <img src={wave} alt="wave" style={{height:"100%", width:"100%"}} />
+      <img src={wave} alt="wave" style={{width:"96.2%"}} />
      <div className="f-content">
+    
         <div className="f-made">
        <span>Made by Hassan </span>
        <span>muhammadhassanlodhi123@gmail.com</span>
@@ -27,6 +28,7 @@ const Footer = () => {
 
                     </a>
                 </div>
+
    </div>
    </div>
   )

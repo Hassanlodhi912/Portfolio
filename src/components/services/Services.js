@@ -4,9 +4,9 @@ import awesomeImage2 from "../../img/awesomeImage2.png";
 import smile from "../../img/smile.png";
 import Cv from "../../cv/Cv.pdf";
 import "./Services.css"
+
 const Services = () => {
   return (
-    // <div className="margin" style={{ margin: "130px 20px 0 20px",padding: "30px"}}>
     <div className="services">
       <div className="awesome">
         <span>My Awesome</span>
@@ -22,10 +22,10 @@ const Services = () => {
 
           <button className="button s-button">Download CV</button>
         </a>
-        <div className="blur s-blur1" style={{ background: "#dfcae7" ,left: "20rem" , top:"14rem"}}></div>
-        <div className="blur s-blur1" style={{ background: "#dfcae7" ,left: "42rem" , top:"32rem"}}></div>
+        <div className="blur s-blur1" style={{ background: "#dfcae7", left: "20rem", top: "14rem" }}></div>
+        <div className="blur s-blur1" style={{ background: "#dfcae7", left: "42rem", top: "32rem" }}></div>
       </div>
-      {/* right side k liye */}
+
       <div className="cards">
         <div style={{ left: "18rem" }}>
           <Card
@@ -33,14 +33,12 @@ const Services = () => {
             heading={"Design"}
             detail={"HTML, CSS, Javascript, React"} />
         </div>
-        {/* second card */}
         <div style={{ top: "12rem", left: "-4rem" }}>
           <Card
             emoji={awesomeImage2}
             heading={"Design"}
             detail={"HTML, CSS, Javascript, React"} />
         </div>
-        {/* THIRD CARD */}
         <div style={{ top: "28rem", left: "18rem" }}>
           <Card
             emoji={smile}
@@ -50,7 +48,7 @@ const Services = () => {
         <div
           className="blur s-blur2"
           style={{
-            backgroundColor: "#dfcae7",left:"16rem" ,top:"4rem"
+            backgroundColor: "#dfcae7", left: "16rem", top: "4rem"
 
           }}
         ></div>

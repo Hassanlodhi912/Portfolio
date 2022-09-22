@@ -36,7 +36,7 @@ top: -9%;
     left: -2rem;
 }
 .i-right>:nth-child(3){
-    transform:scale(0.8);
+    transform:scale(0.7);
     left:-3.rem;
     top: -8em;
 }
@@ -46,7 +46,6 @@ top: -9%;
 }
 .i-name>:nth-child(1)
 {
-    color: rgb(0, 0, 0);
     font-weight: bold;
     font-size:3rem
 }
@@ -57,7 +56,6 @@ top: -9%;
 }
 .i-name>:nth-child(3){
     font-weight: 100;
-    color: black;
     margin-top: 10px;
 }
 .i-button{

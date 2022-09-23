@@ -1,7 +1,7 @@
 import Card from "../card/Card";
 import awesomeImage1 from "../../img/awesomeImage1.png";
 import awesomeImage2 from "../../img/awesomeImage2.png";
-import smile from "../../img/smile.png";
+import smile from "../../img/smile.PNG";
 import Cv from "../../cv/Cv.pdf";
 import "./Services.css"
 import {motion} from "framer-motion"

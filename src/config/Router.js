@@ -6,6 +6,7 @@ import Header from "../components/header/Header";
 import Intro from "../components/intro/Intro";
 import Portfolio from "../components/portfolio/Portfolio";
 import Services from "../components/services/Services";
+import Skills from "../components/skills/Skills";
 
 function Router() {
   return (
@@ -13,6 +14,7 @@ function Router() {
       <Header />
       <Intro />
       <Services />
+      <Skills/>
       <Experience />
       <Portfolio />
       <Contact />

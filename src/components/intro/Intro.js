@@ -6,7 +6,7 @@ import Vector2 from "../../img/Vector2.png"
 import hassan from "../../img/hassan.png"
 import icon8Crown from "../../img/icon8Crown.png"
 import thumbup from "../../img/thumbup.png";
-import smile from "../../img/smile.png";
+import smile from "../../img/smile.PNG";
 import FloatingDiv from "../floatingDiv/FloatingDiv";
 import "./Intro.css"
 import {motion} from "framer-motion"
@@ -22,7 +22,6 @@ const Intro = () => {
                     <span>Hassan lodhi</span>
                     <span>Frontend Developer with beginner level of experience in web designing and development Lorem ipsum dolor, sit amet consectetur adipisicing elit. Illo nihil itaque dolor est! Dicta, ea blanditiis amet eum animi error ipsam ipsa, provident id odio, nihil qui minus veniam perferendis.</span>
                 </div>
-                <button className=" button i-button">Hire me</button>
                 <div className="i-icons">
                     <a href="https://github.com/Hassanlodhi912">
                         <GitHubIcon style={{color:"#753a72"}} />
@@ -51,16 +50,16 @@ const Intro = () => {
             src={smile} alt="smile"/>
 
             
-<motion.div initial={{right:"-9%",top:"-16%"}}
-            whileInView={{right:"5%",top:"-16%"}}
+<motion.div initial={{right:"-11%",top:"-16%"}}
+            whileInView={{right:"3%",top:"-16%"}}
             transition={transition}
 >
     <FloatingDiv image ={icon8Crown} txt1="Web" txt2="Developer"   />
 </motion.div>
 
 
-<motion.div initial={{left:"-13%",top:"65%"}}
-whileInView={{left:"1%",top:"65%"}}
+<motion.div initial={{left:"-15%",top:"65%"}}
+whileInView={{left:"-1%",top:"65%"}}
 transition={transition} >
 <FloatingDiv
 image = {thumbup} txt1 = "Web" txt2 ="Developer"/>

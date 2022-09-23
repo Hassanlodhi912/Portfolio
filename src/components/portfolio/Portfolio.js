@@ -11,10 +11,8 @@ const Portfolio = () => {
   return (
     
       <div className="portfolio" id="Portfolio">
-        {/* heading */}
         <span>Recent Project</span>
         <span>Portfolio</span>
-        {/* slider */}
         <Swiper  spaceBetween={10}
         slidesPerView={6}
         grabCursor={true}

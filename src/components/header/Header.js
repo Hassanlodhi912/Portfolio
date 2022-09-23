@@ -30,6 +30,10 @@ const Header = () => {
 
                         <li>Portfolio</li>
                         </Link>
+                        <Link spy={true} smooth={true} to="Skills" >
+
+<li>Skills</li>
+</Link>
 
                         
                     </ul>

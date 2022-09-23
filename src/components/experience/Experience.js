@@ -3,7 +3,7 @@ import "./Experience.css";
 const Experience = () => {
   const darkMode = useSelector((state)=>state.toggleReducer.darkMode)
   return (
-    <div className="experience">
+    <div className="experience" id="Experience">
     <div className="Acheivement">
         <div className="circle" style={{backgroundColor: darkMode? "black" : "white"}}>+8</div>
         <span> Year</span>

@@ -1,6 +1,6 @@
 .card {
     background-color: rgba(204, 160, 249, 0.061);
-    height: 20rem;
+    height: 18rem;
     position:absolute ;
     display: flex;
     flex-direction: column;
@@ -10,7 +10,6 @@
    border-radius: 20px;
    padding: 0px 26px 2rem 26px;
    align-items: center;
-   gap: 1rem;
 }
 .card span:nth-child(2){
     font-size: 30px;

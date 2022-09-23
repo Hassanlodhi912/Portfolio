@@ -15,5 +15,6 @@
 }
 
 .toggle>:nth-child(3){
+    transform: scale(1.1);
     position: absolute;
 }

@@ -14,9 +14,8 @@ const handleClick = ()=>{
 
         <div className="toggle" onClick={handleClick}>
             <LightModeIcon  />
-            <DarkModeIcon />
-            
-        <CircleIcon  style={darkMode?{left:"2px"}:{right:"2px"}}/>
+            <DarkModeIcon />     
+            <CircleIcon  style={darkMode?{left:"2px"}:{right:"2px"}}/>
         </div>
         
         

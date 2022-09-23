@@ -19,27 +19,31 @@ padding: 30px;
 }
 .i-right>*{
     position: absolute;
-    /* z index prhna hain */
     z-index: 1;
 }
-.i-right>:nth-child(1){
-transform: scale(0.62);
-left: -6rem;
-top: -9%;
+.i-right>:nth-child(1) {
+    transform: scale(1);
+    left: 6%;
+  }
+.i-right>:nth-child(2) {
+    top: 1rem;
+    transform: scale(1);
+    left: 6rem;
+  }
+.i-right>:nth-child(3) {
+    transform: scale(1);
+    left: 24%;
+    top: -29%;
 
-
-
-}
-.i-right>:nth-child(2){
-    top: -1.8em;
-    transform: scale(0.77);
-    left: -2rem;
-}
-.i-right>:nth-child(3){
-    transform:scale(0.7);
-    left:-3.rem;
-    top: -8em;
-}
+    
+  }
+  .i-right > :nth-child(4) {
+    transform: scale(0.62);
+    top: -19%;
+    left: -24%;
+    border-radius: 50%;
+    padding: 0;
+  }
 .i-name{
     display: flex;
     flex-direction:column;

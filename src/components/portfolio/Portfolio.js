@@ -10,7 +10,7 @@ import quote from "../../img/quote.PNG"
 const Portfolio = () => {
   return (
     
-      <div className="portfolio">
+      <div className="portfolio" id="Portfolio">
         {/* heading */}
         <span>Recent Project</span>
         <span>Portfolio</span>

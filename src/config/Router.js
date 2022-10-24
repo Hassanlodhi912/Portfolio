@@ -1,4 +1,5 @@
 
+import { BrowserRouter, Routes } from "react-router-dom";
 import Contact from "../components/contact/Contact";
 import Experience from "../components/experience/Experience";
 import Footer from "../components/footer/Footer";
@@ -11,7 +12,10 @@ import Skills from "../components/skills/Skills";
 function Router() {
   return (
     <>
-      <Header />
+   
+     <BrowserRouter>
+      {/* <Routes> */}
+     <Header />
       <Intro />
       <Services />
       <Skills/>
@@ -19,7 +23,8 @@ function Router() {
       <Portfolio />
       <Contact />
       <Footer />
-
+      {/* </Routes> */}
+     </BrowserRouter>
     </>
 
   );

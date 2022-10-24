@@ -111,3 +111,10 @@ padding: 30px;
   filter:blur(72px);
 
 }
+.Grid{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+ 
+  gap: 10px;
+  padding: 10px;
+}

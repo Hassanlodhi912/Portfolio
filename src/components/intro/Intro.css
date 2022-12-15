@@ -32,7 +32,7 @@ padding: 30px;
   }
 .i-right>:nth-child(3) {
     transform: scale(1);
-    left: 24%;
+    left: 18%;
     top: -29%;
 
     
@@ -118,3 +118,22 @@ padding: 30px;
   gap: 10px;
   padding: 10px;
 }
+@media screen and (max-width: 1080px) {
+    .intro {
+      flex-direction: column;
+      gap: 7rem;
+      height: 64rem;
+    }
+  
+    .i-right {
+      transform: scale(0.8);
+      left: -3rem;
+    }
+    .i-right .blur {
+      display: none;
+    }
+    .floating-div:nth-of-type(1){
+      /* display: none; */
+      top: -7rem !important;
+    }
+  }

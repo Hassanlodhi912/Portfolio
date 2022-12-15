@@ -2,18 +2,19 @@ import React from 'react'
 import Toggle from '../toggle/Toggle';
 import "./Header.css";
 import {Link} from 'react-scroll';
-
 const Header = () => {
     return (
         <div className="h-wrapper">
             <div className="h-left">
-                <div className="h-name">Hassan</div>
+                <div className="h-name">
                 <Toggle/>
+                    
+                </div>
 
             </div>
             <div className="h-right">
                 <div className="h-list">
-                    <ul style={{listStyleType:"none"}}>
+                    <ul >
                        <Link spy={true} smooth={true} to="Header" >
                         <li>Home</li>
                         </Link>

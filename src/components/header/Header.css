@@ -25,8 +25,10 @@
 }
 .h-list{
     flex: 10;
+
 }
 .h-list>ul{
+    list-style-type: none;
     display: flex;
     gap: 2rem;
     margin-right: 4rem;
@@ -39,10 +41,19 @@
     cursor: pointer;
     color:#b033aa
 }
-
-@media screen and (max-width:480px) {
-    .n-list{
+@media screen and (max-width : 1080px ) {
+    .h-list{
         display: none;
     }
+    .button{
+        display: none;
+    }
+    
 }
+/* @media screen and (max-width:480px) {
+    .h-list{
+        display: none;
+    }
+
+} */
 

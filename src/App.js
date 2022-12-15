@@ -5,7 +5,8 @@ const App = () => {
   const darkMode = useSelector((state)=>state.toggleReducer.darkMode)
   
   return (
-    <div style={{
+    <div  className="App"
+     style={{
       background: darkMode? "#2C2C29" : "",
         color:darkMode? "white": ""
         }}>

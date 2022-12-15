@@ -114,15 +114,15 @@ const Intro = () => {
                         src={smile} alt="smile" />
 
 
-                    <motion.div initial={{ right: "-11%", top: "-16%" }}
-                        whileInView={{ right: "3%", top: "-16%" }}
+                    <motion.div initial={{ right: "-30%", top: "-16%" }}
+                        whileInView={{ right: "-15%", top: "-16%" }}
                         transition={transition}
                     >
                         <FloatingDiv image={icon8Crown} txt1="Web" txt2="Developer" />
                     </motion.div>
 
 
-                    <motion.div initial={{ left: "-15%", top: "65%" }}
+                    <motion.div initial={{ left: "-33%", top: "65%" }}
                         whileInView={{ left: "-1%", top: "65%" }}
                         transition={transition} >
                         <FloatingDiv

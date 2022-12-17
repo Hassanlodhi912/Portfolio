@@ -4,7 +4,7 @@
     position:absolute ;
     display: flex;
     flex-direction: column;
-    width:11rem;
+    width: 14rem;
     border: 7px solid rgb(187, 165, 248);
    box-shadow: rgb(154, 120, 226);
    border-radius: 20px;

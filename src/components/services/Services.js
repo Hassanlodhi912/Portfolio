@@ -28,7 +28,6 @@ const Services = () => {
           <button className="button s-button">Download CV</button>
         </a>
         <div className="blur s-blur1" style={{ background: "#dfcae7", left: "20rem", top: "14rem" }}></div>
-        <div className="blur s-blur1" style={{ background: "#dfcae7", left: "42rem", top: "32rem" }}></div>
       </div>
       <div className="cards">
       <motion.div

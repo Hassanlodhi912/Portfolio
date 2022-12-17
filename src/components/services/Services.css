@@ -40,14 +40,15 @@ position: relative;
       margin-top: 0;
       flex-direction: column;
       gap: 5rem;
-      height: 66rem;
-      padding: 0;
+      height: 85rem;
+      padding: 10 ;
     }
   
     .cards {
       display: flex;
       flex-direction: column;
-      gap: 17rem;
+      align-items: flex-start;
+      gap: 25rem;
     }
     .cards > * {
       position: static;

@@ -1,31 +1,36 @@
 .card {
-    background-color: rgba(204, 160, 249, 0.061);
-    height: 18rem;
-    position:absolute ;
-    display: flex;
-    flex-direction: column;
-    width: 14rem;
-    border: 7px solid rgb(187, 165, 248);
-   box-shadow: rgb(154, 120, 226);
-   border-radius: 20px;
-   padding: 0px 26px 2rem 26px;
-   align-items: center;
+  background-color: rgba(204, 160, 249, 0.061);
+  height: 18rem;
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  width: 14rem;
+  border: 7px solid rgb(187, 165, 248);
+  box-shadow: rgb(154, 120, 226);
+  border-radius: 20px;
+  padding: 0px 26px 2rem 26px;
+  align-items: center;
+  text-align: center;
+  gap: 0.5rem;
 }
-.card span:nth-child(2){
-    font-size: 30px;
+.card span:nth-child(2) {
+  font-size: 30px;
 }
-.card>img{
-    transform: scale(0.6);
-    margin-bottom:  -2rem;
+.card > img {
+  transform: scale(0.6);
+  margin-bottom: -2rem;
 }
-.c-button{
-    background: #ffff;
-    box-shadow: rgba(160, 126, 241, 0.12);
-    border-radius: 7px;
-    border:  none;
-    padding: 10px;
-    font-size: 16px;
-    color:#b033aa;
-    
-
+.c-button {
+  background: #ffff;
+  box-shadow: rgba(160, 126, 241, 0.12);
+  border-radius: 7px;
+  border: none;
+  padding: 10px;
+  font-size: 16px;
+  color: #b033aa;
+}
+@media screen and (max-width: 1080px) {
+  .card {
+    width: auto;
+  }
 }

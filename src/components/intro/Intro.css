@@ -2,7 +2,7 @@
     display: flex;
     height: 77vh;
     margin: 130px 20px 0 20px;
-padding: 30px;
+    padding: 30px;
 
 
 }
@@ -45,18 +45,18 @@ padding: 30px;
     padding: 0;
   }
 .i-name{
-    display: flex;
-    flex-direction:column;
+  display: flex;
+  flex-direction:column;
 }
 .i-name>:nth-child(1)
 {
-    font-weight: bold;
-    font-size:3rem
+  font-weight: bold;
+  font-size:3rem
 }
 .i-name>:nth-child(2){
-    color: #b033aa;
-    font-weight: bold;
-    font-size: 3rem;
+  color: #b033aa;
+  font-weight: bold;
+  font-size: 3rem;
 }
 .i-name>:nth-child(3){
     font-weight: 100;

@@ -41,3 +41,15 @@ textarea{
     top: 1rem;
     left: 8rem;
 }
+@media screen and (max-width: 1080px) {
+    .contact-form{
+        padding: 10;
+        flex-direction: column;
+        gap: 5rem;
+        height: 40rem;
+    }
+    .c-right .user{
+        width: 16rem;
+    }
+
+} 

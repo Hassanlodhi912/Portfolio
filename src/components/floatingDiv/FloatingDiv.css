@@ -1,7 +1,7 @@
 .floatingDiv{
 display: flex;
-background-color: rgb(227, 216, 237);
 align-items: center;
+background-color: rgb(227, 216, 237);
 border-radius: 12px;
 gap: 1rem;
 padding: 2px;

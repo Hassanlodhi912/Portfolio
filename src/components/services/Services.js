@@ -16,18 +16,11 @@ const Services = () => {
       <div className="awesome">
         <span>My Awesome</span>
         <span>Services</span>
-        <span>Lorem ipsum dolor sit amet consectetu
-          adipisicing elit. Tempore quam voluptate voluptates
-          <br />
-          fuga quae dolore aliquam quibusdam at nemo. Providen
-          <br />
-          t assumenda fuga cupiditate eum placeat, atque cumque
-          veritatis quasi perferendis?</span>
+        <span>The valuable services that I offer with my skillset to add value to your bussiness and scale your bussiness.</span>
         <a href={Cv} download>
 
           <button className="button s-button">Download CV</button>
         </a>
-        <div className="blur s-blur1" style={{ background: "#dfcae7", left: "20rem", top: "14rem" }}></div>
       </div>
       <div className="cards">
       <motion.div
@@ -37,8 +30,8 @@ const Services = () => {
         >
           <Card
             emoji={awesomeImage1}
-            heading={"Design"}
-            detail={"HTML, CSS, Javascript, React"} />
+            heading={"DESIGN"}
+            detail={"I design aesthetically pleasing and appealing"} />
               </motion.div>
               <motion.div
           initial={{ left: "-11rem", top: "12rem" }}
@@ -47,8 +40,8 @@ const Services = () => {
         >
           <Card
             emoji={awesomeImage2}
-            heading={"Design"}
-            detail={"HTML, CSS, Javascript, React"} />
+            heading={"SCALABILITY"}
+            detail={"My priority is to scale the Businesses of Client"} />
             </motion.div>
             <motion.div
           initial={{ left: "25rem",top: "28rem" }}
@@ -57,17 +50,9 @@ const Services = () => {
         >
           <Card
             emoji={smile}
-            heading={"Design"}
-            detail={"HTML, CSS, Javascript, React"} />
+            heading={"RESPONSIVENESS"}
+            detail={"I build websites that user open on any device"} />
             </motion.div>
-
-        <div
-          className="blur s-blur2"
-          style={{
-            backgroundColor: "#dfcae7", left: "16rem", top: "4rem"
-
-          }}
-        ></div>
       </div>
 
     </div>

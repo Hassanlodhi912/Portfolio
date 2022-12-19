@@ -22,13 +22,7 @@ const Contact = () => {
         <div className="awesome">
           <span >Get in Touch</span>
           <span>Contact me</span>
-          <div
-            className="blur s-blur1"
-            style={{ background: "#dfcae7", top: "5rem" }}
-
-
-
-          ></div>
+          
         </div>
       </div>
       {/* right side form */}
@@ -39,10 +33,7 @@ const Contact = () => {
           <textarea name="message" className="user" placeholder="Message" />
           <input type="submit"  className="button" />
          <span>{done && "Thank For Contacting Us"  }</span>
-         <div
-            className="blur c-blur1" style={{ background: "#dfcae7" }}
-            
-          ></div>
+         
         </form>
       </div>
     </div>

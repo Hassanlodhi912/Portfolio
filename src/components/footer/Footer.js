@@ -14,16 +14,16 @@ const Footer = () => {
        <span>muhammadhassanlodhi123@gmail.com</span>
        </div>
        <div className="f-icons">
-                    <a href="https://github.com/Hassanlodhi912">
+                    <a href="https://github.com/Hassanlodhi912" target="blank">
                         <GitHubIcon style={{color:"white"}} />
 
                     </a>
 
-                    <a href="https://www.linkedin.com/in/hassan-lodhi-2a45281aa/">
+                    <a href="https://www.linkedin.com/in/hassan-lodhi-2a45281aa/" target="blank">
                         <LinkedInIcon  style={{color:"white"}}/>
 
                     </a>
-                    <a href="https://www.instagram.com/lodhi_880/">
+                    <a href="https://www.instagram.com/lodhi_880/" target="blank">
                         <InstagramIcon  style={{color:"white"}}/>
 
                     </a>

@@ -31,7 +31,6 @@ const Contact = () => {
           <span>Contact me</span>
         </div>
       </div>
-      {/* right side form */}
       <div className="c-right">
         <form ref={form} onSubmit={sendEmail} >
           <input type="text" name="to_name" className="user" placeholder="Name" />

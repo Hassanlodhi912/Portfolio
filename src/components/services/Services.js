@@ -1,7 +1,7 @@
 import "./Services.css"
 import Card from "../card/Card";
 import awesomeImage2 from "../../img/awesomeImage2.png";
-import smile from "../../img/smile.PNG";
+import smile from "../../img/smile.png";
 import Cv from "../../cv/Cv.pdf";
 import heartemoji from "../../img/heartemoji.png"
 import { motion } from "framer-motion"
@@ -11,6 +11,7 @@ const Services = () => {
     duration: 1,
     type: "spring",
   };
+  
   return (
     <div className="services" id="Services">
       <div className="awesome">

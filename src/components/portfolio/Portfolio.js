@@ -16,7 +16,7 @@ const Portfolio = () => {
         <span>Note:All Other Remaining Projects are uploaded on Github Link is above.</span>
         <Swiper 
          spaceBetween={12}
-        slidesPerView={6}
+        slidesPerView={3}
         grabCursor={true}
         className="portfolio-slider"
       >

@@ -7,7 +7,7 @@ import Vector2 from "../../img/Vector2.png"
 import hassan from "../../img/hassan.png"
 import icon8Crown from "../../img/icon8Crown.png"
 import thumbup from "../../img/thumbup.png";
-import smile from "../../img/smile.PNG";
+import smile from "../../img/smile.png";
 import FloatingDiv from "../floatingDiv/FloatingDiv";
 import { motion } from "framer-motion"
 import { Link } from 'react-scroll';
@@ -53,7 +53,7 @@ const Intro = () => {
                     initial={{ left: "-36%" }}
                     whileInView={{ left: "-24%" }}
                     transition={transition}
-                    src={smile} 
+                    src={smile}
                     alt="smile"
                 />
 
@@ -80,8 +80,8 @@ const Intro = () => {
                         image={thumbup} txt1="Web" txt2="Developer" />
                 </motion.div>
                 <div
-         
-        ></div>
+
+                ></div>
             </div>
         </div>
 

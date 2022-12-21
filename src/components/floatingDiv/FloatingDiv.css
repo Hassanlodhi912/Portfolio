@@ -9,7 +9,7 @@
   height: 4.5rem;
 }
 .floatingDiv > img {
-  transform: scale(0.4);
+  transform: scale(0.8);
 }
 .floatingDiv > span {
   font-family: sans-serif;

@@ -1,20 +1,23 @@
 .card {
-  background-color: rgba(204, 160, 249, 0.061);
-  height: 18rem;
+  width: 10rem;
+  height: 13rem;
   position: absolute;
   display: flex;
   flex-direction: column;
-  width: 14rem;
-  border: 7px solid rgb(187, 165, 248);
-  box-shadow: rgb(154, 120, 226);
+  gap: 1rem;
+  align-items: center;
+  width: 10rem;
+  text-align: center;
   border-radius: 20px;
   padding: 0px 26px 2rem 26px;
-  align-items: center;
-  text-align: center;
-  gap: 0.5rem;
+  background-color: rgba(204, 160, 249, 0.061);
+  box-shadow: rgb(154, 120, 226);
+  border: 7px solid rgb(187, 165, 248);
+
 }
 .card span:nth-child(2) {
-  font-size: 30px;
+  color: gray;
+  font-size: 16px;
 }
 .card > img {
   transform: scale(0.6);
@@ -29,7 +32,11 @@
   font-size: 16px;
   color: #b033aa;
 }
-@media screen and (max-width: 1080px) {
+.c-button:hover{
+  transform: scale(1.1);
+  cursor: pointer;
+}
+@media screen and (max-width: 480px) {
   .card {
     width: auto;
   }

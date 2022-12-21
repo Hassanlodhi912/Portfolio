@@ -12,24 +12,24 @@ const Header = () => {
             </div>
             <div className="h-right">
                 <div className="h-list">
-                    <ul >
-                        <Link spy={true} smooth={true} to="Header" >
+                    <ul style={{ listStyleType: "none" }} >
+                        <Link activeClass="active" spy={true} smooth={true} to="Header" >
                             <li>Home</li>
                         </Link>
-                        <Link spy={true} smooth={true} to="Services" >
+                        <Link activeClass="active" spy={true} smooth={true} to="Services" >
 
                             <li>Services</li>
                         </Link>
-                        <Link spy={true} smooth={true} to="Skills" >
+                        <Link activeClass="active" spy={true} smooth={true} to="Skills" >
 
                             <li>Skills</li>
                         </Link>
 
-                        <Link spy={true} smooth={true} to="Portfolio" >
+                        <Link activeClass="active" spy={true} smooth={true} to="Portfolio" >
 
                             <li>Portfolio</li>
                         </Link>
-                        <Link spy={true} smooth={true} to="Contact" >
+                        <Link activeClass="active" spy={true} smooth={true} to="Contact" >
 
                             <li>Contact</li>
                         </Link>
@@ -38,9 +38,9 @@ const Header = () => {
                     </ul>
                 </div>
             </div>
-            <button className="button">
-                Contact us
-            </button>
+            <Link to="Contact" spy={true} smooth={true}>
+        <button className="button n-button">Contact</button>
+        </Link>
         </div>
     )
 }

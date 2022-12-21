@@ -6,26 +6,18 @@ import InstagramIcon from '@mui/icons-material/Instagram';
 const Footer = () => {
   return (
     <div className="footer">
-      <img src={wave} alt="wave" style={{width:"96.2%"}} />
+      <img src={wave} alt="wave" style={{width:"100%"}} />
      <div className="f-content">
-    
-        <div className="f-made">
-       <span>Made by Hassan </span>
        <span>muhammadhassanlodhi123@gmail.com</span>
-       </div>
        <div className="f-icons">
                     <a href="https://github.com/Hassanlodhi912" target="blank">
                         <GitHubIcon style={{color:"white"}} />
-
                     </a>
-
                     <a href="https://www.linkedin.com/in/hassan-lodhi-2a45281aa/" target="blank">
                         <LinkedInIcon  style={{color:"white"}}/>
-
                     </a>
                     <a href="https://www.instagram.com/lodhi_880/" target="blank">
                         <InstagramIcon  style={{color:"white"}}/>
-
                     </a>
                 </div>
 

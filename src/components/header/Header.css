@@ -1,59 +1,44 @@
-.h-wrapper{
-    height: 10vh;
-    display: flex;
-    justify-content: space-between;
-    
+.h-wrapper {
+  height: 10vh;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 2rem;
+  top: 0;
 }
 
-.h-left{
-    flex: 1;
-    align-items: center;
-    display: flex;
-    gap:  2rem;
+.h-left {
+  flex: 1;
+  align-items: center;
+  justify-content: left;
+  display: flex;
+  gap: 2rem;
 }
-.h-name{
-    font-size: 1.4rem;
-    font-weight: bold;
-    font-family: "Poppins",sans-serif
+.h-name {
+  font-size: 1.3rem;
+  font-weight: bold;
 }
-.h-right{
-    display: flex;
-    flex:1;
-    align-items: center;
-    justify-content: center;
-    font-weight: 500;
+.h-right {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 400;
 }
-.h-list{
-    flex: 10;
-
+.h-list {
+  flex: 10;
 }
-.h-list>ul{
-    list-style-type: none;
-    display: flex;
-    gap: 2rem;
-    margin-right: 4rem;
-    font-size: larger;
-    cursor: pointer;
-
+.h-list > ul {
+  display: flex;
+  gap: 2rem;
+  margin-right: 4rem;
 }
-.h-list>ul>li:hover{
-    
-    cursor: pointer;
-    color:#b033aa
+.h-list > ul > :hover {
+    color: #b033aa;
+  cursor: pointer;
 }
-@media screen and (max-width : 1080px ) {
-    .h-list{
-        display: none;
-    }
-    .button{
-        display: none;
-    }
-    
+@media screen and (max-width: 480px) {
+  .h-list {
+    display: none;
+  }
 }
-/* @media screen and (max-width:480px) {
-    .h-list{
-        display: none;
-    }
-
-} */
 

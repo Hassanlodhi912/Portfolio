@@ -1,10 +1,10 @@
+import "./Services.css"
 import Card from "../card/Card";
-import awesomeImage1 from "../../img/awesomeImage1.png";
 import awesomeImage2 from "../../img/awesomeImage2.png";
 import smile from "../../img/smile.PNG";
 import Cv from "../../cv/Cv.pdf";
-import "./Services.css"
-import {motion} from "framer-motion"
+import heartemoji from "../../img/heartemoji.png"
+import { motion } from "framer-motion"
 
 const Services = () => {
   const transition = {
@@ -23,36 +23,38 @@ const Services = () => {
         </a>
       </div>
       <div className="cards">
-      <motion.div
+        <motion.div
           initial={{ left: "25rem" }}
-          whileInView={{ left: "18rem" }}
+          whileInView={{ left: "14rem" }}
           transition={transition}
         >
           <Card
-            emoji={awesomeImage1}
+            emoji={heartemoji}
             heading={"DESIGN"}
             detail={"I design aesthetically pleasing and appealing"} />
-              </motion.div>
-              <motion.div
+        </motion.div>
+        <motion.div
           initial={{ left: "-11rem", top: "12rem" }}
-          whileInView={{ left: "-4rem",top:"12rem" }}
+          whileInView={{ left: "-4rem" }}
           transition={transition}
         >
           <Card
             emoji={awesomeImage2}
             heading={"SCALABILITY"}
             detail={"My priority is to scale the Businesses of Client"} />
-            </motion.div>
-            <motion.div
-          initial={{ left: "25rem",top: "28rem" }}
-          whileInView={{ left: "18rem"  ,top: "28rem"}}
+        </motion.div>
+
+        <motion.div
+          initial={{ left: "19rem", top: "25rem" }}
+          whileInView={{ left: "12rem" }}
           transition={transition}
         >
           <Card
             emoji={smile}
             heading={"RESPONSIVENESS"}
-            detail={"I build websites that user open on any device"} />
-            </motion.div>
+            detail={"I build websites that user open on any device"}
+            color="rgba(252, 166, 31, 0.45)" />
+        </motion.div>
       </div>
 
     </div>

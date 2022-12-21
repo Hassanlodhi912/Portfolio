@@ -1,14 +1,12 @@
 import "./Contact.css"
 import React, { useRef, useState } from 'react';
 import emailjs from '@emailjs/browser';
-import { Link } from "react-router-dom";
 const Contact = () => {
   const [done, setDone] = useState(false);
   const form = useRef();
   const sendEmail = (e) => {
     e.preventDefault();
-    emailjs.
-      sendForm(
+    emailjs.sendForm(
         'service_ikms1pr',
         'template_xbeuzfr',
         form.current,
@@ -41,7 +39,9 @@ const Contact = () => {
           <textarea name="message" className="user" placeholder="Message" />
          <input type="submit" className="button" id="reset-button" />
           <span>
-            {done &&
+            
+            {
+            done &&
               "Thank For Contacting Us"
             }
           </span>
